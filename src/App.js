@@ -1,5 +1,6 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
+import Credits from "./Credits";
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
         <header className="App-header">
           <Dictionary />
         </header>
+        <hr />
+        <Credits />
       </div>
     </div>
   );
