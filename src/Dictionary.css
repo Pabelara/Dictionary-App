@@ -70,3 +70,7 @@ a:hover {
   display: inline-block;
   padding-right: 20px;
 }
+.Photos img {
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
