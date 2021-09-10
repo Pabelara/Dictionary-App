@@ -1,4 +1,3 @@
-import "./App.css";
 import Dictionary from "./Dictionary";
 import Credits from "./Credits";
 import "./dictionary.css";
