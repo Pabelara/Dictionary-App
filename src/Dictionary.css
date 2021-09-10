@@ -1,3 +1,72 @@
-.Dictionary {
-  background: blue;
+.container {
+  background: #e6eff8;
+  font-family: "Courier New", Courier, monospace;
+}
+.Dictionary h1 {
+  color: #064257;
+  font-size: 40px;
+  font-weight: bold;
+}
+.Dictionary section {
+  background: #fbfcfd;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 10px rgb(0 0 0 0.1);
+  margin: 20px;
+  border: 2px solid #ddd;
+  color: #4d4d52;
+}
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  color: #4d4d52;
+}
+.Results h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #4a707a;
+}
+.Meaning h3 {
+  font-size: 30px;
+}
+.Definition,
+.Example {
+  color: #4a707a;
+}
+.Definition {
+  font-weight: 600;
+  font-size: 18px;
+}
+.Example {
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.Tag {
+  color: #4d4d52;
+  opacity: 0.8;
+  font-weight: 600;
+}
+a {
+  color: #4a707a;
+}
+a:hover {
+  color: #052a3c;
+  font-weight: 600;
+  transition: all 150ms ease-in-out;
+}
+.Phonetic {
+  font-size: 18px;
+}
+.Synonyms {
+  margin: 0;
+  padding: 0;
+}
+.Synonyms li {
+  display: inline-block;
+  padding-right: 20px;
 }
