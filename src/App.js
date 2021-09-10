@@ -1,6 +1,7 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
 import Credits from "./Credits";
+import "./Dictionary.css";
 
 function App() {
   return (
